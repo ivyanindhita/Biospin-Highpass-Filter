@@ -48,6 +48,6 @@ Code:
 
 Audio(z, rate = fs)
 
-The result: 
+The result: ![https://user-images.githubusercontent.com/81221913/112160975-a7185380-8c25-11eb-8e1a-50ed88425e1c.mp4]
 
 
