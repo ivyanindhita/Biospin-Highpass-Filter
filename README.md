@@ -31,9 +31,11 @@ plt.plot(t,y)
 ![WhatsApp Image 2021-03-23 at 22 05 04](https://user-images.githubusercontent.com/81221913/112159233-e3e34b00-8c23-11eb-9d43-21860a77b7e7.jpeg)
 
 **3. Signal Z**
+
 Code:
 
 z = x+y
+
 plt.plot(t,z)
 
 **analysis** : if we combine the two signals, a z signal is formed which is a combination of signal x and signal y
