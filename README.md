@@ -13,8 +13,9 @@ contains the source code high pass filter at 586 Hz - 863 Hz
 
 **The inverse Fourier Transform is:**
 
-![](https://latex.codecogs.com/gif.latexx%28t%29%20%3D%20%5Cfrac%7B1%7D%7B2%5Cpi%20%7D%5Cint_%7B%5Cinfty%20%7D%5E%7B%5Cinfty%20%7D%20X%28%5Comega%20%29e%5E%7Bj%5Comega%20t%7D%20d%5Comega)
+![](https://latex.codecogs.com/gif.latex?x%28t%29%20%3D%20%5Cfrac%7B1%7D%7B2%5Cpi%20%7D%5Cint_%7B-%5Cinfty%20%7D%5E%7B%5Cinfty%20%7D%20X%28%5Comega%20%29e%5E%7Bj%5Comega%20t%7D%20d%5Comega)
 
+Fourier Transform decomposes an image into its real and imaginary components which is a representation of the image in the frequency domain. If the input signal is an image then the number of frequencies in the frequency domain is equal to the number of pixels in the image or spatial domain. The inverse transform re-transforms the frequencies to the image in the spatial domain. 
 
 ## Analysis Of Signal 
 **1. Signal X**
