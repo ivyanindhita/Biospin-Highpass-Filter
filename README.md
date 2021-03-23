@@ -3,11 +3,17 @@ contains the source code high pass filter at 586 Hz - 863 Hz
 
 ## Analysis of FFT with the FFT IFFT equation
 
-The equation is:
+**The equation is:**
 
 ![](https://latex.codecogs.com/gif.latex?f%28t%29%20%3D%20%5Cfrac%7B%5Calpha0%7D%7B2%7D%20&plus;%20%5Csum_%7Bk%3D1%7D%5E%7B%5Cinfty%20%7D%20%28ak%5Ccos%282%5Cpi%20kt%20%29&plus;bk%20%5Csin%20%282%5Cpi%20k%20t%29%29)
 
+**The equation of Fourier Transform is:**
 
+![](https://latex.codecogs.com/gif.latex?X%28%5Comega%20%29%20%3D%20%5Cint_%7B-%5Cinfty%20%7D%5E%7B%5Cinfty%20%7D%20x%28t%29%20e%5E%7B-j%5Comega%20t%7D%20dt)
+
+**The inverse Fourier Transform is:**
+
+![](https://latex.codecogs.com/gif.latexx%28t%29%20%3D%20%5Cfrac%7B1%7D%7B2%5Cpi%20%7D%5Cint_%7B%5Cinfty%20%7D%5E%7B%5Cinfty%20%7D%20X%28%5Comega%20%29e%5E%7Bj%5Comega%20t%7D%20d%5Comega)
 
 
 ## Analysis Of Signal 
